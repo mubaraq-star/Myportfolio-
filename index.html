@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio_Olanrewaju</title>
+    <link href="assets/css/style.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"
+    />
+    <link
+      rel="shortcut icon"
+      href="assets/images/x-icon.png"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <div id="header">
+        <img src="assets/images/IMG2.jpg" />
+      <div class="container">
+        
+        <nav>
+          <div class="nav-logo">
+            <p class="nav-name">MyPortfoilio</p>
+            <span> .</span>
+          </div>
+
+          <ul>
+            <li class="nav-list">
+              <a href="#Home" class="nav-link">Home</a>
+              <div class="circle"></div>
+            </li>
+            <li class="nav-list">
+              <a href="#About" class="nav-link">About</a>
+              <div class="circle"></div>
+            </li>
+            <li class="nav-list">
+              <a href="#Projects" class="nav-link">Projects</a>
+              <div class="circle"></div>
+            </li>
+            <li class="nav-list">
+              <a href="#Contact" class="nav-link">Contact</a>
+              <div class="circle"></div>
+            </li>
+          </ul>
+        </nav>
+
+        <div class="header-text">
+            <h1>I'm a software developer</h1>
+              
+          <p> I am passionate and driven with a solid background in software development and network engineering.</p>
+          <img src="assets/images/profile1.png" />
+        </div>
+      </div>
+    </div>
+    <!-- About ----------------->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="assets/images/profile2.png" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              I am passionate and motivated professional with a strong
+              foundation in software development and network Engineering.
+              Proficient in data storage solutions, JavaScript, NodeJS, Json and
+              Python. Skilled in troubleshooting, adept at working with a
+              variety of networking technologies and protocols and resolving
+              complex network issues and ensuring seamless communication across
+              various platform.
+            </p>
+            <div class="tab-tittle">
+              <p class="tab-links active-link" onclick="openTab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="openTab('experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="openTab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>ui/ux</span><br />Designing web interface</li>
+                <li><span>Web Development</span><br />web App Solution</li>
+                <li>
+                  <span>App Development</span><br />Responsive Android/ IOS APPS
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li>
+                  <span>JAN, 2023 - OCT 2023</span><br />Designing web interface
+                </li>
+                <li><span>2019 - 2022</span><br />web App Solution</li>
+                <li>
+                  <span>2016 - 2017</span>><br />IT administrator
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span>Lagos state university</span><br />
+                  Electronics and computer Engineering
+                </li>
+                <li>
+                  <span>Internship at paras energy</span><br />Architecture Solution
+                </li>
+                <li>
+                  <span>Internship at AFL</span><br />
+                  IT adminstrator
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ---------------------------projects------------------------ -->
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">Projects</h1>
+        <div class="project-list">
+          <div>
+            <i class="uil uil-code-branch"></i>
+            <i class="uil uil-browser"></i>
+            <h2>Web development</h2>
+            <p>Building of responsive web applications</p>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class="uil uil-building"></i>
+            <h2>UI/UX Solutions</h2>
+            <p>Building of responsive web applications</p>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class="uil uil-server-network"></i>
+            <h2>Network Architecture</h2>
+            <p>Building of responsive web applications</p>
+            <a href="#">Learn more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ------======================================contacts==================== -->
+    <div id="contacts">
+      <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="uil uil-message"></i>contact@example.com</p>
+                <p><i class="uil uil-calling"></i>0905-382-1103</p>
+            </div>
+            <div class="social-icons">
+                <a href=""><i class="uil uil-facebook-f"></i></a>
+                <a href=""><i class="uil uil-linkedin"></i></a>
+                <a href=""><i class="uil uil-twitter-alt"></i></a>
+                <a href=""><i class="uil uil-twitter-alt"></i></a>
+            </div>
+            <a href="/assets/images/mubaraq olanrewaju_cv.pdf" class="btn btn2">Download CV</a>
+          </div>
+          <div class="contact-right">
+            <form>
+              <input type="text" name="Name" placeholder="Your name" required />
+              <input type="text" name="Email" placeholder="Your email" required />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Your message"
+              ></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p> copyright @ Portfolio_Olanrewaju</p>
+      </div>
+    </div>
+
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
