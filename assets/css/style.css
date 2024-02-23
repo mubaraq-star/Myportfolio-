@@ -42,6 +42,7 @@ nav {
   flex-wrap: wrap;
   padding: 20px;
 }
+
 .nav-name{
    font-size: 12px;
    font-weight: bold;
@@ -78,7 +79,7 @@ nav ul li a {
   display: inline-block;
   display: flex;
   text-align: right;
-  /* position: relative; */
+  position: relative;
 }
 
 nav ul li a::after {
@@ -300,4 +301,43 @@ form .btn2{
       background: #2c2626;
       font-weight: 300;
       margin-top: 20px; 
+}
+
+nav .uil {
+  display: none;
+  
+  }
+
+/* ____________media query_________________ */
+
+
+
+@media only screen and (max-width:600px){
+  .header-text {
+    font-size: 12px;
+  }
+  nav .uil{
+    display: block;
+    font-size: 25px;
+  }
+
+  nav ul{
+     background: #d40b0b;
+     position: fixed;
+     top: 0;
+     right: -200px;
+     width:200px;
+     height: 100vh;
+     padding-top: 50px;
+     z-index: 2;
+     transition: right 0.5s;
+
+    }
+    nav ul .uil{
+      position: absolute;
+      top: 25px;
+      left:25px;
+      cursor: pointer;
+    }
+   
 }

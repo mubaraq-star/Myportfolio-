@@ -24,34 +24,37 @@
       <div class="container">
         
         <nav>
+         
           <div class="nav-logo">
             <p class="nav-name">MyPortfoilio</p>
             <span>Olanrewaju <i class="uil uil-bag-alt"></i></span>
           </div>
 
-          <ul>
-            <li class="nav-list">
+          <ul id="sidemenu">
+            <li>
               <a href="#Home" class="nav-link">Home</a>
-              <div class="circle"></div>
+             
             </li>
-            <li class="nav-list">
+            <li>
               <a href="#About" class="nav-link">About</a>
-              <div class="circle"></div>
+             
             </li>
-            <li class="nav-list">
+            <li>
               <a href="#Projects" class="nav-link">Projects</a>
-              <div class="circle"></div>
-            </li>
-            <li class="nav-list">
-              <a href="#Contact" class="nav-link">Contact</a>
-              <div class="circle"></div>
-            </li>
-          </ul>
-        </nav>
-
-        <div class="header-text">
-            <h1>I'm a software developer</h1>
               
+            </li>
+            <li>
+              <a href="#Contact" class="nav-link">Contact</a>
+              
+            </li> 
+            <i class="uil uil-times" onclick="closeMenu()"></i>    
+            <i class="uil uil-bars" onclick="openMenu()"></i>
+          </ul>
+          <!-- <i class="uil uil-bars"></i> -->
+         
+        </nav>
+       
+            <h1> Hi, I'm a software developer</h1>              
           <p> I am passionate and driven with a solid background in software development and network engineering.</p>
           <img src="assets/images/profile1.png" />
         </div>
@@ -164,7 +167,7 @@
             <div class="social-icons">
                 <div>
                     <a href="https://www.facebook.com/yourprofile" target="_blank"><i class="uil uil-facebook-f"></i></a>
-                    <a href="www.linkedin.com/in/abdulrahmon-mubaraq-196b051b4" target="_blank"><i class="uil uil-linkedin"></i></a>
+                    <a href="https://www.linkedin.com/in/yourprofile" target="_blank"><i class="uil uil-linkedin"></i></a>
                     <a href="https://www.twitter.com/yourprofile" target="_blank"><i class="uil uil-twitter-alt"></i></a>
                   </div>
                   
@@ -181,8 +184,9 @@
                 rows="6"
                 placeholder="Your message"
               ></textarea>
-              <button type="submit" class="btn btn2">Submit</button>
+             
             </form>
+            <button type="submit" class="btn btn2">Submit</button>
           </div>
         </div>
       </div>
